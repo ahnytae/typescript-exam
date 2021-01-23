@@ -24,4 +24,13 @@
       resolve(100);
     });
   }
+
+  // function
+  
+  // Optional parameter => ok
+  // Default parameter => ok
+  // Reset parameter
+  function addNumbers(...numbers: number[]):number {
+    return 123;
+  }
 }
